@@ -1,0 +1,31 @@
+{
+    "name": "backend-d4-fileupload",
+    "version": "1.0.0",
+    "description": "",
+    "type": "module",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node src/server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/pavanyalamanchi/Backend-D4-fileupload.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/pavanyalamanchi/Backend-D4-fileupload/issues"
+    },
+    "homepage": "https://github.com/pavanyalamanchi/Backend-D4-fileupload#readme",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "express-list-endpoints": "^6.0.0",
+        "fs-extra": "^10.0.0",
+        "multer": "^1.4.3",
+        "request-ip": "^2.1.3",
+        "uniqid": "^5.3.0"
+    }
+}
